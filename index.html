@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Install IndusInd 2FA Android App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Download IndusInd 2FA Android App</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a2e73, #0d5fc1);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .logo {
+      max-width: 120px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 25px;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: white;
+      background-color: #1db954;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #17a74a;
+    }
+    .qr-section {
+      margin-top: 30px;
+    }
+    .qr-section img {
+      max-width: 180px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 <body>
-  <h2>Install IndusInd 2FA iOS App</h2>
-  <p>Click the button below to install the app:</p>
-  <a href="https://github.com/IndusindDeepakpaswan/Indus2FA_Android_app/releases/download/V.24.03.21/app-indusindbankprod-release.apk">
-    <button style="padding: 10px 20px; font-size: 16px;">Install App</button>
-  </a>
-  <p>Note: Open this page in Safari on your iPhone.</p>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/IndusInd_Bank_logo.svg/2560px-IndusInd_Bank_logo.svg.png" class="logo" alt="IndusInd Bank Logo" />
+    <h1>IndusInd Bank 2FA App</h1>
+    <p>Click the button below to download the official Android app.</p>
+    <a href="https://github.com/IndusindDeepakpaswan/Indus2FA_Android_app/releases/download/V_24.03.21/app-indusindbankprod-release.apk" class="download-btn">Download Android App</a>
+
+    <div class="qr-section">
+      <p>Scan QR to download:</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://github.com/IndusindDeepakpaswan/Indus2FA_Android_app/releases/download/V_24.03.21/app-indusindbankprod-release.apk" alt="QR Code">
+    </div>
+  </div>
 </body>
 </html>
